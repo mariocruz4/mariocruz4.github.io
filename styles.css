@@ -2,94 +2,13 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-body {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;tbody {
-    border: 2px solid #e67a26;
-}
-}
-
-#gato {
-    position: fixed;
-    top: 0; 
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(./resources/images/dislocao.jpeg);
-    background-size: cover;
-    background-position: top;
-    opacity: 0.7;
-    z-index: -1;
-    pointer-events: none;
-}
-
-#example {
-    background-color: rgba(24, 25, 76, 1);
-    opacity: .8;
-    color: white;
-}
-
-main {
-    position: relative;
-    z-index: 1;
-    padding: 2rem;
-}
-
-img {
-    display: block;
-    height: 100px;
-    width: auto;
-    align-items: center;
-    margin: auto;
-}
-
-h1 {
-    display: block;
-    text-align: center;
-    font-weight: 700;
-}
-
-h2 {
-    display: block;
-    text-align: center;
-    color: orangered;
-}
-
-table {
-    display: table;
-    align-items: center;
-    margin: 0 auto;
-    border: 2px solid #e67a26;
-    height: auto;
-    width: auto;
-    border-collapse: separate;
-    box-sizing: border-box;
-}
-
-.code {
-    font-family: monospace;
-    background-color: beige;
-}
-
-thead {
-    background-color: #efb487;
-    display: table-header-group;
-    font-size: medium;
-    border-spacing: 2px;
-    border: 1px solid inherit;
-}
-
-th {
+#intro {
+    font-size: large;
     text-align: center;
 }
 
-td {
-    border: 1px solid #e67a26
-}
-
-table tr td {
+#intro p {
     text-align: justify;
-    font-size: small;
+    font-weight: 600;
+    font-size: medium;
 }
