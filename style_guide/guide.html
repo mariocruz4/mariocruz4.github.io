@@ -1,24 +1,96 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Style Guide</title>
-    <link rel="stylesheet" href="./styles.css" />
-</head>
-<body>
-    <header>
-        <h1>My Website Style Guide</h1>
-        <p>This guide contains all the details for the styles in my website.</p>
-    </header>
-    <section>
-        <h2>Colors</h2>
-        <div class="sections" id="colors">
-            <div id="color_1">Color 1<br><span>#000000</span><br><span>This one is for the headers and footers. The main color.</span></div>
-            <div id="color_2">Color 1<br><span>#000001</span><br><span>Description</span></div>
-            <div id="color_3">Color 1<br><span>#000002</span><br><span>Description</span></div>
-            <div id="color_4">Color 1<br><span>#000003</span><br><span>Description</span></div>
-            <div id="color_5">Color 1<br><span>#000004</span><br><span>Description</span></div>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=MedievalSharp&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <h1>My Website Style Guide</h1>
+    <p>This style guide provides an overview of the design elements used in this website.</p>
+    <div class="container">
+      <h2>Colors</h2>
+      <div class="color-container">
+        <div class="color-panel the_king">
+          <p class="color-label" >The King</p>
+          <p class="color-hex">#4144A5</p>
+          <p class="description">The main color</p>
         </div>
-    </section>
-</body>
+        <div class="color-panel the_hand">
+          <p class="color-label" >The Hand</p>
+          <p class="color-hex">#7041A5</p>
+          <p class="description">The hand of the king</p>
+        </div>
+        <div class="color-panel the_queen">
+          <p class="color-label" >The Queen</p>
+          <p class="color-hex">#A241A5</p>
+          <p class="description">The king's partner</p>
+        </div>
+        <div class="color-panel the_knight">
+          <p class="color-label" >The Knight</p>
+          <p class="color-hex">#A54144</p>
+          <p class="description">The king's most loyal servant</p>
+        </div>
+        <div class="color-panel the_enemy">
+          <p class="color-label" >The Enemy</p>
+          <p class="color-hex">#44A541</p>
+          <p class="description">The king's adversary</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Fonts</h2>
+      <div class="font-container">
+        <div class="font-panel">
+          <p class="font-label source-code-pro">Source Code Pro</p>
+          <p class="regular source-code-pro">The quick brown fox jumps over the lazy dog.</p>
+          <p class="bold source-code-pro">The quick brown fox jumps over the lazy dog.</p>
+          <p class="italic source-code-pro">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div class="font-panel">
+          <p class="font-label nunito-sans">Nunito Sans</p>
+          <p class="regular nunito-sans">The quick brown fox jumps over the lazy dog.</p>
+          <p class="bold nunito-sans">The quick brown fox jumps over the lazy dog.</p>
+          <p class="italic nunito-sans">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div class="font-panel">
+          <p class="font-label poppins">Poppins</p>
+          <p class="regular poppins">The quick brown fox jumps over the lazy dog.</p>
+          <p class="bold poppins">The quick brown fox jumps over the lazy dog.</p>
+          <p class="italic poppins">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Text Styles</h2>
+      <div class="text-container">
+        <div class="text-panel">
+          <h1>H1: Main page heading</h1>
+          <ul>
+            <li>Font-weight: 700 (bold)</li>
+            <li>Font-size: 26px</li>
+            <li>Font-family: Nunito Sans</li>
+          </ul>
+        </div>
+        <div class="text-panel">
+          <h2>H2: Subheading</h2>
+          <ul>
+            <li>Font-weight: 500</li>
+            <li>Font-size: 18px</li>
+            <li>Font-family: Poppins</li>
+          </ul>
+        </div>
+        <div class="text-panel">
+          <p>P: Paragraph text</p>
+          <ul>
+            <li>Font-weight: 400 (regular)</li>
+            <li>Font-size: 14px</li>
+            <li>Font-family: Poppins</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
