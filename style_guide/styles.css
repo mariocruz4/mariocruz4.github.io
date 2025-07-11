@@ -1,0 +1,32 @@
+.sections {
+   border: 2px solid gray;
+}
+
+.sections div {
+    display: inline-block;
+    text-align: center;
+}
+
+#color_1 {
+    background-color: #324ab1;
+}
+
+#color_1 span {
+    display: block
+}
+
+#color_2 {
+    background-color: b1324a;
+}
+
+#color_3 {
+    background-color: #b19932;
+}
+
+#color_4 {
+    background-color: #b132b1;
+}
+
+#color_5 {
+    background-color: ;
+}
