@@ -5,13 +5,6 @@
   font-style: normal;
 }
 
-.source-code-pro-<uniquifier> {
-  font-family: "Source Code Pro", monospace;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
 .courier-prime-regular {
   font-family: "Courier Prime", monospace;
   font-weight: 400;
@@ -38,7 +31,7 @@
 
 /* General Selectors */
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Courier Prime', sans-serif;
   margin: 0 10%;
 }
 
@@ -50,7 +43,13 @@ body {
 }
 
 .container h2 {
-  font-weight: 700;
+  font-weight: 700px;
+  font-size: 24px;
+  text-align: left;
+}
+
+#colors {
+  font-weight: 700px;
   font-size: 24px;
   font-family: 'MedievalSharp', cursive;
   text-align: left;
@@ -107,7 +106,7 @@ body {
 }
 
 .font-label {
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: underline;
 }
 
@@ -123,32 +122,32 @@ body {
   font-weight: 700;
 }
 
-.nunito-sans {
-  font-family: 'Nunito Sans', sans-serif;
+.courier-prime {
+  font-family: 'Courier Prime', monospace;
 }
 
 .source-code-pro {
   font-family: 'Source Code Pro', monospace;
 }
 
-.poppins {
-  font-family: 'Poppins', sans-serif;
+.medievalsharp {
+  font-family: 'MedievalSharp', cursive;
 }
 
 .text-panel h1 {
   font-weight: 700;
   font-size: 32px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Courier Prime', monospace;
 }
 
 .text-panel h2 {
   font-weight: 500;
   font-size: 18px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Courier Prime', monospace;
 }
 
 .text-panel p {
   font-weight: 400;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Courier Prime', monospace;
 }
