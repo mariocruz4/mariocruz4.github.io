@@ -11,6 +11,8 @@ body {
   color: seashell;
   background-color: black;
   line-height: 1.4;
+  opacity: 0.9;
+  font-size: 22px;
 }
 
 /* =========================
@@ -64,13 +66,23 @@ nav a:hover {
    HERO / MISSION
    ========================= */
 .hero {
-  margin-top: 60px; /* para dejar espacio al header */
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 69px;
   background: url('./images/background.png') center/cover no-repeat;
   height: 700px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.cutter {
+  background-color: black;
+  position: absolute;
+  left: 0px;
+  right: 0px;
   text-align: center;
 }
 
