@@ -13,17 +13,11 @@ body {
   line-height: 1.4;
 }
 
-/* Contenedor central */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
 /* =========================
    HEADER
    ========================= */
-header {
+header .container {
+  height: 69px;
   position: fixed;
   top: 0; left: 0;
   width: 100%;
@@ -33,7 +27,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 50px;
-  z-index: 1000;
+  z-index: 1;
 }
 
 nav ul {
@@ -51,6 +45,19 @@ nav a {
 nav a:hover {
   text-decoration: underline;
   opacity: 1;
+}
+
+.logo{
+  height: 50px;
+  align-items: flex-start;
+  display: flex;
+  margin-left: 10px;
+}
+
+.logo img {
+  height: 100%;
+  width: auto;
+  display: block;
 }
 
 /* =========================
