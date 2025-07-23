@@ -102,6 +102,8 @@ nav a:hover {
 .tea-month {
   padding: 3rem 0;
   text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .tea-month h3 {
@@ -123,14 +125,14 @@ nav a:hover {
   align-items: center;
 }
 
-.tea-item img {
-  width: 100%;
-  height: auto;
+.tea_img {
+  width: 300px;
+  height: 200px;
   display: block;
 }
 
 .tea-item span {
-  margin-top: 0.5rem;
+  margin-top: 10px;
 }
 
 /* =========================
